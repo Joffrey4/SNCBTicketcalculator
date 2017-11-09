@@ -15,17 +15,14 @@ class DistanceCalculator {
 
     get distance() {
         let path = d.getPath(this.origin, this.destination);
-        console.log(path);
 
         let origin = this.origin;
-        let distance;
+        let distance = 0;
 
-        console.log(JSON_GRAPH[origin]);
-
-        for (let station in path) {
+        path.forEach((station) => {
             distance += JSON_GRAPH[origin][station];
             origin = station;
-        }
+        });
 
         return distance;
     }

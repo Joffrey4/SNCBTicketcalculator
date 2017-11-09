@@ -1,20 +1,1058 @@
 {
-  "A": {
-    "B": 30,
-    "C": 20
+  "mouscron": {
+    "kortrijk": 14,
+    "herseaux": 3,
+    "froyennes": 14
   },
-  "B": {
-    "A": 30,
-    "C": 100,
-    "D": 20
+  "herseaux": {
+    "mouscron": 3,
+    "kortrijk": 14,
+    "froyennes": 14
   },
-  "C": {
-    "D": 10,
-    "A": 20,
-    "B": 100
+  "froyennes": {
+    "mouscron": 14,
+    "herseaux": 14,
+    "tournai": 4
   },
-  "D": {
-    "C": 10,
-    "B": 20
+  "tournai": {
+    "froyennes": 4,
+    "leuze": 18,
+    "antoing": 7
+  },
+  "antoing": {
+    "tournai": 7,
+    "maubray": 4
+  },
+  "maubray": {
+    "antoing": 4,
+    "callenelle": 3
+  },
+  "callenelle": {
+    "maubray": 3,
+    "peruwelz": 5
+  },
+  "peruwelz": {
+    "callenelle": 5,
+    "blaton": 6
+  },
+  "blaton": {
+    "peruwelz": 6,
+    "harchies": 3
+  },
+  "harchies": {
+    "blaton": 3,
+    "ville-pommeroeul": 3
+  },
+  "ville-pommeroeul": {
+    "harchies": 3,
+    "saint-ghislain": 8
+  },
+  "saint-ghislain": {
+    "ville-pommeroeul": 8,
+    "quaregnon": 2,
+    "boussu": 2
+  },
+  "boussu": {
+    "saint-ghislain": 2,
+    "hainin": 2
+  },
+  "hainin": {
+    "boussu": 2,
+    "thulin": 2
+  },
+  "thulin": {
+    "hainin": 2,
+    "quievrain": 5
+  },
+  "quievrain": {
+    "thulin": 5
+  },
+  "quaregnon": {
+    "saint-ghislain": 2,
+    "jemappes": 2
+  },
+  "jemappes": {
+    "quaregnon": 2,
+    "mons": 5,
+    "nimy": 5
+  },
+  "mons": {
+    "jemappes": 5,
+    "frameries": 7,
+    "ghlin": 5,
+    "nimy": 3,
+    "obourg": 6
+  },
+  "frameries": {
+    "mons": 7,
+    "nimy": 7,
+    "genly": 1
+  },
+  "genly": {
+    "frameries": 1,
+    "quevy": 6
+  },
+  "quevy": {
+    "genly": 6
+  },
+  "nimy": {
+    "mons": 3,
+    "jemappes": 5,
+    "frameries": 7,
+    "ghlin": 5,
+    "obourg": 6
+  },
+  "obourg": {
+    "mons": 6,
+    "nimy": 6,
+    "havre": 4
+  },
+  "havre": {
+    "obourg": 4,
+    "thieu": 2
+  },
+  "thieu": {
+    "havre": 2,
+    "bracquegnies": 7
+  },
+  "bracquegnies": {
+    "thieu": 7,
+    "louviere-centre": 3,
+    "louviere-sud": 3,
+    "leval": 7,
+    "morlanwelz": 6
+  },
+  "louviere-sud": {
+    "bracquegnies": 3,
+    "louviere-centre": 3,
+    "leval": 7,
+    "morlanwelz": 6
+  },
+  "louviere-centre": {
+    "bracquegnies": 3,
+    "louviere-sud": 3,
+    "leval": 7,
+    "morlanwelz": 6
+  },
+  "leval": {
+    "louviere-sud": 7,
+    "louviere-centre": 7,
+    "bracquegnies": 7,
+    "morlanwelz": 9,
+    "binche": 4
+  },
+  "binche": {
+    "leval": 4
+  },
+  "morlanwelz": {
+    "louviere-sud": 6,
+    "louviere-centre": 6,
+    "bracquegnies": 6,
+    "leval": 9,
+    "carnieres": 2
+  },
+  "carnieres": {
+    "morlanwelz": 2,
+    "pieton": 2
+  },
+  "pieton": {
+    "carnieres": 2,
+    "forchies": 3
+  },
+  "forchies": {
+    "pieton": 3,
+    "marchienne-au-pont": 10,
+    "marchienne-zone": 10,
+    "charleroi-ouest": 10,
+    "charleroi-sud": 10,
+    "lodelinsart": 10,
+    "couillet": 10,
+    "roux": 9
+  },
+  "marchienne-au-pont": {
+    "forchies": 10,
+    "marchienne-zone": 3,
+    "charleroi-sud": 3,
+    "charleroi-ouest": 3,
+    "lodelinsart": 3,
+    "couillet": 3,
+    "roux": 7,
+    "chatelet": 6,
+    "fleurus": 12,
+    "landelies": 8,
+    "jamioulx": 9
+  },
+  "marchienne-zone": {
+    "marchienne-au-pont": 3,
+    "charleroi-sud": 3,
+    "charleroi-ouest": 3,
+    "lodelinsart": 3,
+    "couillet": 3,
+    "forchies": 10,
+    "roux": 7,
+    "chatelet": 6,
+    "fleurus": 12,
+    "landelies": 8,
+    "jamioulx": 9
+  },
+  "charleroi-sud": {
+    "marchienne-au-pont": 3,
+    "marchienne-zone": 3,
+    "charleroi-ouest": 3,
+    "lodelinsart": 3,
+    "couillet": 3,
+    "forchies": 10,
+    "roux": 7,
+    "chatelet": 6,
+    "fleurus": 12,
+    "landelies": 8,
+    "jamioulx": 9
+  },
+  "charleroi-ouest": {
+    "marchienne-au-pont": 3,
+    "marchienne-zone": 3,
+    "charleroi-sud": 3,
+    "lodelinsart": 3,
+    "couillet": 3,
+    "forchies": 10,
+    "roux": 7,
+    "chatelet": 6,
+    "fleurus": 12,
+    "landelies": 8,
+    "jamioulx": 9
+  },
+  "lodelinsart": {
+    "marchienne-au-pont": 3,
+    "marchienne-zone": 3,
+    "charleroi-sud": 3,
+    "charleroi-ouest": 3,
+    "couillet": 3,
+    "forchies": 10,
+    "roux": 7,
+    "chatelet": 6,
+    "fleurus": 12,
+    "landelies": 8,
+    "jamioulx": 9
+  },
+  "couillet": {
+    "marchienne-au-pont": 3,
+    "marchienne-zone": 3,
+    "charleroi-sud": 3,
+    "charleroi-ouest": 3,
+    "lodelinsart": 3,
+    "forchies": 10,
+    "roux": 7,
+    "chatelet": 6,
+    "fleurus": 12,
+    "landelies": 8,
+    "jamioulx": 9
+  },
+  "landelies": {
+    "marchienne-au-pont": 8,
+    "marchienne-zone": 8,
+    "charleroi-sud": 8,
+    "charleroi-ouest": 8,
+    "couillet": 8,
+    "lodelinsart": 8,
+    "jamioulx": 15,
+    "hourpes": 3
+  },
+  "hourpes": {
+    "landelies": 3,
+    "thuin": 3
+  },
+  "thuin": {
+    "hourpes": 3,
+    "lobbes": 2
+  },
+  "lobbes": {
+    "thuin": 2,
+    "fontaine-valmont": 5
+  },
+  "fontaine-valmont": {
+    "lobbes": 5,
+    "labuissiere": 2
+  },
+  "labuissiere": {
+    "fontaine-valmont": 2,
+    "solre-sur-sambre": 2
+  },
+  "solre-sur-sambre": {
+    "labuissiere": 2,
+    "erquelinnes-village": 2
+  },
+  "erquelinnes-village": {
+    "solre-sur-sambre": 2,
+    "erquelinnes": 2
+  },
+  "erquelinnes": {
+    "erquelinnes-village": 2
+  },
+  "jamioulx": {
+    "marchienne-au-pont": 9,
+    "marchienne-zone": 9,
+    "charleroi-sud": 9,
+    "charleroi-ouest": 9,
+    "couillet": 9,
+    "lodelinsart": 9,
+    "landelies": 15,
+    "begnee": 2
+  },
+  "begnee": {
+    "jamioulx": 2,
+    "ham-sur-heure": 2
+  },
+  "ham-sur-heure": {
+    "begnee": 2,
+    "cour-sur-heure": 2
+  },
+  "cour-sur-heure": {
+    "ham-sur-heure": 2,
+    "berzee": 3
+  },
+  "berzee": {
+    "cour-sur-heure": 3,
+    "pry": 2
+  },
+  "pry": {
+    "berzee": 2,
+    "walcourt": 1
+  },
+  "walcourt": {
+    "pry": 1,
+    "yves-gomezee": 6
+  },
+  "yves-gomezee": {
+    "walcourt": 6,
+    "philippeville": 8
+  },
+  "philippeville": {
+    "yves-gomezee": 8,
+    "mariembourg": 13
+  },
+  "mariembourg": {
+    "philippeville": 13,
+    "couvin": 6
+  },
+  "couvin": {
+    "mariembourg": 6
+  },
+  "chatelet": {
+    "couillet": 6,
+    "campinaire": 3
+  },
+  "campinaire": {
+    "chatelet": 3,
+    "farciennes": 1
+  },
+  "farciennes": {
+    "campinaire": 1,
+    "aiseau": 2
+  },
+  "aiseau": {
+    "farciennes": 2,
+    "tamines": 2
+  },
+  "tamines": {
+    "aiseau": 2,
+    "auvelais": 3
+  },
+  "auvelais": {
+    "tamines": 3,
+    "jemeppe-sur-sambre": 2
+  },
+  "jemeppe-sur-sambre": {
+    "auvelais": 2,
+    "ham-sur-sambre": 1
+  },
+  "ham-sur-sambre": {
+    "jemeppe-sur-sambre": 1,
+    "moustier": 2
+  },
+  "moustier": {
+    "ham-sur-sambre": 2,
+    "franiere": 3
+  },
+  "franiere": {
+    "moustier": 3,
+    "floreffe": 3
+  },
+  "floreffe": {
+    "franiere": 3,
+    "flawinne": 8,
+    "ronet": 8,
+    "namur": 8,
+    "jambes": 8,
+    "jambes-est": 8
+  },
+  "flawinne": {
+    "floreffe": 8,
+    "ronet": 3,
+    "namur": 3,
+    "jambes": 3,
+    "jambes-est": 3,
+    "lustin": 13,
+    "dave-saint-martin": 6,
+    "marche-les-dames": 9
+  },
+  "ronet": {
+    "flawinne": 3,
+    "namur": 3,
+    "jambes": 3,
+    "jambes-est": 3,
+    "floreffe": 8,
+    "lustin": 13,
+    "dave-saint-martin": 6,
+    "marche-les-dames": 9
+  },
+  "namur": {
+    "flawinne": 3,
+    "ronet": 3,
+    "jambes": 3,
+    "jambes-est": 3,
+    "floreffe": 8,
+    "lustin": 13,
+    "dave-saint-martin": 6,
+    "marche-les-dames": 9
+  },
+  "jambes": {
+    "flawinne": 3,
+    "ronet": 3,
+    "namur": 3,
+    "jambes-est": 3,
+    "floreffe": 8,
+    "lustin": 13,
+    "dave-saint-martin": 6,
+    "marche-les-dames": 9
+  },
+  "jambes-est": {
+    "flawinne": 3,
+    "ronet": 3,
+    "namur": 3,
+    "jambes": 3,
+    "floreffe": 8,
+    "lustin": 13,
+    "dave-saint-martin": 6,
+    "marche-les-dames": 9
+  },
+  "lustin": {
+    "flawinne": 13,
+    "ronet": 13,
+    "namur": 13,
+    "jambes": 13,
+    "jambes-est": 13,
+    "godinne": 3
+  },
+  "godinne": {
+    "lustin": 3,
+    "yvoir": 4
+  },
+  "yvoir": {
+    "godinne": 4,
+    "dinant": 8
+  },
+  "dinant": {
+    "yvoir": 8,
+    "anseremme": 3
+  },
+  "anseremme": {
+    "dinant": 3,
+    "gendron-celles": 7
+  },
+  "gendron-celles": {
+    "anseremme": 7,
+    "houyet": 5
+  },
+  "houyet": {
+    "gendron-celles": 5,
+    "beauraing": 9
+  },
+  "beauraing": {
+    "houyet": 9,
+    "gedinne": 22
+  },
+  "gedinne": {
+    "beauraing": 22,
+    "graide": 7
+  },
+  "graide": {
+    "gedinne": 7,
+    "carlsbourg": 5
+  },
+  "carlsbourg": {
+    "graide": 5,
+    "paliseul": 2
+  },
+  "paliseul": {
+    "carlsbourg": 2,
+    "libramont": 24,
+    "bertrix": 12
+  },
+  "bertrix": {
+    "paliseul": 12,
+    "libramont": 12,
+    "florenville": 21
+  },
+  "florenville": {
+    "bertrix": 21,
+    "virton": 24
+  },
+  "virton": {
+    "florenville": 24,
+    "halanzy": 17
+  },
+  "halanzy": {
+    "virton": 17,
+    "aubange": 4
+  },
+  "aubange": {
+    "halanzy": 4,
+    "athus": 3
+  },
+  "dave-saint-martin": {
+    "jambes-est": 6,
+    "flawinne": 6,
+    "ronet": 6,
+    "namur": 6,
+    "jambes": 6,
+    "naninne": 3
+  },
+  "naninne": {
+    "dave-saint-martin": 3,
+    "sart-bernard": 2
+  },
+  "sart-bernard": {
+    "naninne": 2,
+    "courriere": 4
+  },
+  "courriere": {
+    "sart-bernard": 4,
+    "assesse": 4
+  },
+  "assesse": {
+    "courriere": 4,
+    "floree": 2
+  },
+  "floree": {
+    "assesse": 2,
+    "natoye": 2
+  },
+  "natoye": {
+    "floree": 2,
+    "ciney": 6
+  },
+  "ciney": {
+    "natoye": 6,
+    "leignon": 3
+  },
+  "leignon": {
+    "ciney": 3,
+    "chapois": 2
+  },
+  "chapois": {
+    "leignon": 2,
+    "haversin": 6
+  },
+  "haversin": {
+    "chapois": 6,
+    "aye": 13,
+    "marloie": 13,
+    "marche-en-famenne": 13,
+    "rochefort-jemelle": 18
+  },
+  "aye": {
+    "haversin": 13,
+    "marche-en-famenne": 3,
+    "marloie": 3,
+    "melreux-hotton": 13,
+    "rochefort-jemelle": 7
+  },
+  "marche-en-famenne": {
+    "aye": 3,
+    "marloie": 3,
+    "haversin": 13,
+    "melreux-hotton": 13,
+    "rochefort-jemelle": 7
+  },
+  "marloie": {
+    "aye": 3,
+    "marche-en-famenne": 3,
+    "melreux-hotton": 13,
+    "haversin": 13,
+    "rochefort-jemelle": 7
+  },
+  "rochefort-jemelle": {
+    "marloie": 7,
+    "marche-en-famenne": 7,
+    "aye": 7,
+    "haversin": 18,
+    "forrieres": 3
+  },
+  "forrieres": {
+    "rochefort-jemelle": 3,
+    "grupont": 6
+  },
+  "grupont": {
+    "forrieres": 6,
+    "poix-saint-hubert": 10
+  },
+  "poix-saint-hubert": {
+    "grupont": 10,
+    "libramont": 13
+  },
+  "libramont": {
+    "poix-saint-hubert": 13,
+    "bertrix": 12,
+    "paliseul": 24,
+    "neufchateau": 10
+  },
+  "neufchateau": {
+    "libramont": 10,
+    "marbehan": 16
+  },
+  "marbehan": {
+    "neufchateau": 16,
+    "habay": 7
+  },
+  "habay": {
+    "marbehan": 7,
+    "stockem": 10
+  },
+  "stockem": {
+    "habay": 10,
+    "viville": 2
+  },
+  "viville": {
+    "stockem": 2,
+    "arlon": 2
+  },
+  "arlon": {
+    "viville": 2,
+    "messancy": 12
+  },
+  "messancy": {
+    "arlon": 12,
+    "athus": 4
+  },
+  "athus": {
+    "messancy": 4,
+    "aubange": 3
+  },
+  "marche-les-dames": {
+    "jambes-est": 9,
+    "flawinne": 9,
+    "ronet": 9,
+    "namur": 9,
+    "jambes": 9,
+    "nameche": 3
+  },
+  "nameche": {
+    "marche-les-dames": 3,
+    "sclaigneaux": 3
+  },
+  "sclaigneaux": {
+    "nameche": 3,
+    "chateau-de-seilles": 4
+  },
+  "chateau-de-seilles": {
+    "sclaigneaux": 4,
+    "andenne": 1
+  },
+  "andenne": {
+    "chateau-de-seilles": 1,
+    "bas-oha": 8
+  },
+  "bas-oha": {
+    "andenne": 8,
+    "statte": 3,
+    "huy": 3
+  },
+  "statte": {
+    "bas-oha": 3,
+    "huy": 3,
+    "ampsin": 4
+  },
+  "huy": {
+    "statte": 3,
+    "bas-oha": 3,
+    "ampsin": 4
+  },
+  "ampsin": {
+    "huy": 4,
+    "statte": 4,
+    "amay": 3
+  },
+  "amay": {
+    "ampsin": 3,
+    "haute-flone": 1
+  },
+  "haute-flone": {
+    "amay": 1,
+    "engis": 6
+  },
+  "engis": {
+    "haute-flone": 6,
+    "flemalle-haute": 4
+  },
+  "flemalle-haute": {
+    "engis": 4,
+    "leman": 1
+  },
+  "leman": {
+    "flemalle-haute": 1,
+    "flemalle-grande": 1
+  },
+  "flemalle-grande": {
+    "leman": 1,
+    "jemeppe-sur-meuse": 2
+  },
+  "jemeppe-sur-meuse": {
+    "flemalle-grande": 2,
+    "pont-de-seraing": 1
+  },
+  "pont-de-seraing": {
+    "jemeppe-sur-meuse": 1,
+    "sclessin": 6,
+    "angleur": 6,
+    "bressoux": 6,
+    "chenee": 6,
+    "liege-guillemins": 6,
+    "liege-jonfosse": 6,
+    "liege-palais": 6
+  },
+  "sclessin": {
+    "pont-de-seraing": 6,
+    "angleur": 3,
+    "bressoux": 3,
+    "chenee": 3,
+    "liege-guillemins": 3,
+    "liege-jonfosse": 3,
+    "liege-palais": 3,
+    "ans": 6,
+    "herstal": 7,
+    "vise": 19,
+    "tilff": 9,
+    "trooz": 11
+  },
+  "liege-guillemins": {
+    "sclessin": 3,
+    "angleur": 3,
+    "bressoux": 3,
+    "chenee": 3,
+    "liege-jonfosse": 3,
+    "liege-palais": 3,
+    "ans": 6,
+    "herstal": 7,
+    "vise": 19,
+    "tilff": 9,
+    "trooz": 11,
+    "pont-de-seraing": 6
+  },
+  "liege-jonfosse": {
+    "sclessin": 3,
+    "angleur": 3,
+    "bressoux": 3,
+    "chenee": 3,
+    "liege-guillemins": 3,
+    "liege-palais": 3,
+    "ans": 6,
+    "herstal": 7,
+    "vise": 19,
+    "tilff": 9,
+    "trooz": 11,
+    "pont-de-seraing": 6
+  },
+  "liege-palais": {
+    "sclessin": 3,
+    "angleur": 3,
+    "bressoux": 3,
+    "chenee": 3,
+    "liege-jonfosse": 3,
+    "liege-guillemins": 3,
+    "ans": 6,
+    "herstal": 7,
+    "vise": 19,
+    "tilff": 9,
+    "trooz": 11,
+    "pont-de-seraing": 6
+  },
+  "angleur": {
+    "sclessin": 3,
+    "bressoux": 3,
+    "chenee": 3,
+    "liege-jonfosse": 3,
+    "liege-palais": 3,
+    "liege-guillemins": 3,
+    "ans": 6,
+    "herstal": 7,
+    "vise": 19,
+    "tilff": 9,
+    "trooz": 11,
+    "pont-de-seraing": 6
+  },
+  "bressoux": {
+    "sclessin": 3,
+    "angleur": 3,
+    "chenee": 3,
+    "liege-jonfosse": 3,
+    "liege-palais": 3,
+    "liege-guillemins": 3,
+    "ans": 6,
+    "herstal": 7,
+    "vise": 19,
+    "tilff": 9,
+    "trooz": 11,
+    "pont-de-seraing": 6
+  },
+  "chenee": {
+    "sclessin": 3,
+    "angleur": 3,
+    "bressoux": 3,
+    "liege-jonfosse": 3,
+    "liege-palais": 3,
+    "liege-guillemins": 3,
+    "ans": 6,
+    "herstal": 7,
+    "vise": 19,
+    "tilff": 9,
+    "trooz": 11,
+    "pont-de-seraing": 6
+  },
+  "tilff": {
+    "sclessin": 9,
+    "angleur": 9,
+    "bressoux": 9,
+    "chenee": 9,
+    "liege-guillemins": 9,
+    "liege-jonfosse": 9,
+    "liege-palais": 9,
+    "mery": 4
+  },
+  "mery": {
+    "tilff": 4,
+    "hony": 1
+  },
+  "hony": {
+    "mery": 1,
+    "hesneux": 1
+  },
+  "hesneux": {
+    "hony": 1,
+    "poulseur": 4
+  },
+  "poulseur": {
+    "hesneux": 4,
+    "rivage": 4
+  },
+  "rivage": {
+    "poulseur": 4,
+    "aywaille": 8,
+    "comblain-la-tour": 4
+  },
+  "comblain-la-tour": {
+    "rivage": 4,
+    "hamoir": 5
+  },
+  "hamoir": {
+    "comblain-la-tour": 5,
+    "sy": 4
+  },
+  "sy": {
+    "hamoir": 4,
+    "bomal": 4
+  },
+  "bomal": {
+    "sy": 4,
+    "barvaux": 3
+  },
+  "barvaux": {
+    "bomal": 3,
+    "melreux-hotton": 8
+  },
+  "melreux-hotton": {
+    "barvaux": 8,
+    "marche-en-famenne": 13,
+    "marloie": 13,
+    "aye": 13
+  },
+  "aywaille": {
+    "rivage": 8,
+    "coo": 24
+  },
+  "coo": {
+    "aywaille": 24,
+    "trois-ponts": 2
+  },
+  "trois-ponts": {
+    "coo": 2,
+    "vielsalm": 12
+  },
+  "vielsalm": {
+    "trois-ponts": 12,
+    "gouvy": 12
+  },
+  "gouvy": {
+    "vielsalm": 12
+  },
+  "trooz": {
+    "sclessin": 11,
+    "angleur": 11,
+    "bressoux": 11,
+    "chenee": 11,
+    "liege-guillemins": 11,
+    "liege-jonfosse": 11,
+    "liege-palais": 11,
+    "fraipont": 3
+  },
+  "fraipont": {
+    "trooz": 3,
+    "nessonvaux": 1
+  },
+  "nessonvaux": {
+    "fraipont": 1,
+    "pepinster": 5
+  },
+  "pepinster": {
+    "nessonvaux": 5,
+    "verviers-central": 4,
+    "verviers-palais": 4,
+    "pepinster-cite": 1
+  },
+  "pepinster-cite": {
+    "pepinster": 1,
+    "juslenville": 2
+  },
+  "juslenville": {
+    "pepinster-cite": 2,
+    "theux": 1
+  },
+  "theux": {
+    "juslenville": 1,
+    "franchimont": 2
+  },
+  "franchimont": {
+    "theux": 2,
+    "spa": 6
+  },
+  "spa": {
+    "franchimont": 6,
+    "spa-geronstere": 1
+  },
+  "spa-geronstere": {
+    "spa": 1
+  },
+  "verviers-central": {
+    "pepinster": 4,
+    "verviers-palais": 3,
+    "dolhain-gileppe": 8
+  },
+  "verviers-palais": {
+    "verviers-central": 3,
+    "pepinster": 4,
+    "dolhain-gileppe": 8
+  },
+  "dolhain-gileppe": {
+    "verviers-central": 8,
+    "verviers-palais": 8,
+    "welkenraedt": 6
+  },
+  "welkenraedt": {
+    "dolhain-gileppe": 6,
+    "eupen": 5,
+    "hergenrath": 8
+  },
+  "eupen": {
+    "welkenraedt": 5
+  },
+  "hergenrath": {
+    "welkenraedt": 8
+  },
+  "vise": {
+    "sclessin": 19,
+    "angleur": 19,
+    "bressoux": 19,
+    "chenee": 19,
+    "liege-guillemins": 19,
+    "liege-jonfosse": 19,
+    "liege-palais": 19
+  },
+  "leuze": {
+    "tournai": 18,
+    "ath": 12
+  },
+  "ath": {
+    "leuze": 12,
+    "silly": 14,
+    "rebaix": 4,
+    "maffle": 1
+  },
+  "maffle": {
+    "ath": 1,
+    "mevergnies-attre": 3
+  },
+  "mevergnies-attre": {
+    "maffle": 3,
+    "brugelette": 1
+  },
+  "brugelette": {
+    "mevergnies-attre": 1,
+    "cambron-casteau": 2
+  },
+  "cambron-casteau": {
+    "brugelette": 2,
+    "lens": 4
+  },
+  "lens": {
+    "cambron-casteau": 4,
+    "jurbise": 3
+  },
+  "jurbise": {
+    "lens": 3,
+    "masnuy-saint-pierre": 4,
+    "erbisoeul": 3
+  },
+  "erbisoeul": {
+    "jurbise": 3,
+    "ghlin": 3
+  },
+  "ghlin": {
+    "erbisoeul": 3,
+    "mons": 5,
+    "nimy": 5
+  },
+  "silly": {
+    "ath": 14,
+    "enghien": 9
+  },
+  "enghien": {
+    "silly": 9,
+    "herne": 4,
+    "halle": 15,
+    "lembeek": 15,
+    "buizingen": 15
+  },
+  "halle": {
+    "enghien": 15,
+    "lembeek": 3,
+    "buizingen": 3,
+    "lot": 5,
+    "huizingen": 3,
+    "tubize": 5
+  },
+  "buizingen": {
+    "halle": 3,
+    "lembeek": 3,
+    "lot": 5,
+    "huizingen": 3,
+    "tubize": 5,
+    "enghien": 15
+  },
+  "lembeek": {
+    "halle": 3,
+    "buizingen": 3,
+    "lot": 5,
+    "huizingen": 3,
+    "tubize": 5,
+    "enghien": 15
   }
 }
