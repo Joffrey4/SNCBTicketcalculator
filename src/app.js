@@ -8,10 +8,10 @@ let DistanceCalculator = require('./modules/distanceCalculator/DistanceCalculato
 //let ticket2 = new FixedTicket("go-pass1", true, 2, "charleroi", "namur");
 //console.log(ticket2.price);
 
-let distance = new DistanceCalculator('hergenrath', 'liege-guillemins');
+let distance = new DistanceCalculator('zottegem', 'gent-sint-pieters');
 console.log(distance.distance);
 
-let distance2 = new DistanceCalculator('liege-guillemins', 'hergenrath');
+let distance2 = new DistanceCalculator('gent-sint-pieters', 'zottegem');
 console.log(distance2.distance);
 
 /*

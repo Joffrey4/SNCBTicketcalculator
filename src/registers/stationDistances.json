@@ -120,19 +120,22 @@
     "louviere-centre": 3,
     "louviere-sud": 3,
     "leval": 7,
-    "morlanwelz": 6
+    "morlanwelz": 6,
+    "familleureux": 7
   },
   "louviere-sud": {
     "bracquegnies": 3,
     "louviere-centre": 3,
     "leval": 7,
-    "morlanwelz": 6
+    "morlanwelz": 6,
+    "familleureux": 7
   },
   "louviere-centre": {
     "bracquegnies": 3,
     "louviere-sud": 3,
     "leval": 7,
-    "morlanwelz": 6
+    "morlanwelz": 6,
+    "familleureux": 7
   },
   "leval": {
     "louviere-sud": 7,
@@ -363,6 +366,7 @@
   },
   "jemeppe-sur-sambre": {
     "auvelais": 2,
+    "mazy": 7,
     "ham-sur-sambre": 1
   },
   "ham-sur-sambre": {
@@ -371,6 +375,7 @@
   },
   "moustier": {
     "ham-sur-sambre": 2,
+    "mazy": 10,
     "franiere": 3
   },
   "franiere": {
@@ -393,7 +398,8 @@
     "jambes-est": 3,
     "lustin": 13,
     "dave-saint-martin": 6,
-    "marche-les-dames": 9
+    "marche-les-dames": 9,
+    "rhisnes": 6
   },
   "ronet": {
     "flawinne": 3,
@@ -403,7 +409,8 @@
     "floreffe": 8,
     "lustin": 13,
     "dave-saint-martin": 6,
-    "marche-les-dames": 9
+    "marche-les-dames": 9,
+    "rhisnes": 6
   },
   "namur": {
     "flawinne": 3,
@@ -413,7 +420,8 @@
     "floreffe": 8,
     "lustin": 13,
     "dave-saint-martin": 6,
-    "marche-les-dames": 9
+    "marche-les-dames": 9,
+    "rhisnes": 6
   },
   "jambes": {
     "flawinne": 3,
@@ -433,7 +441,8 @@
     "floreffe": 8,
     "lustin": 13,
     "dave-saint-martin": 6,
-    "marche-les-dames": 9
+    "marche-les-dames": 9,
+    "rhisnes": 6
   },
   "lustin": {
     "flawinne": 13,
@@ -1054,5 +1063,768 @@
     "huizingen": 3,
     "tubize": 5,
     "enghien": 15
+  },
+  "tubize": {
+    "lembeek": 5,
+    "buizingen": 5,
+    "halle": 5,
+    "hennuyeres": 5
+  },
+  "hennuyeres": {
+    "tubize": 5,
+    "braine-le-comte": 6
+  },
+  "braine-le-comte": {
+    "hennuyeres": 6,
+    "soignies": 6,
+    "ecaussinnes": 5
+  },
+  "soignies": {
+    "braine-le-comte": 6,
+    "neufvilles": 5
+  },
+  "neufvilles": {
+    "soignies": 5,
+    "masnuy-saint-pierre": 4
+  },
+  "masnuy-saint-pierre": {
+    "neufvilles": 4,
+    "lens": 7,
+    "jurbise": 4
+  },
+  "ecaussinnes": {
+    "braine-le-comte": 5,
+    "marche-lez-ecaussinnes": 3
+  },
+  "marche-lez-ecaussinnes": {
+    "ecaussinnes": 3,
+    "familleureux": 4
+  },
+  "familleureux": {
+    "marche-lez-ecaussinnes": 4,
+    "manage": 2,
+    "louviere-centre": 7,
+    "louviere-sud": 7,
+    "bracquegnies": 7
+  },
+  "manage": {
+    "familleureux": 2,
+    "louviere-centre": 8,
+    "louviere-sud": 8,
+    "bracquegnies": 8,
+    "godarville": 4
+  },
+  "godarville": {
+    "manage": 4,
+    "gouy-lez-pieton": 3
+  },
+  "gouy-lez-pieton": {
+    "godarville": 3,
+    "pont-a-celles": 3
+  },
+  "pont-a-celles": {
+    "gouy-lez-pieton": 3,
+    "luttre": 2
+  },
+  "waterloo": {
+    "hoek": 3,
+    "braine-lalleud": 3
+  },
+  "braine-lalleud": {
+    "waterloo": 3,
+    "lillois": 5
+  },
+  "lillois": {
+    "braine-lalleud": 5,
+    "nivelles": 6
+  },
+  "nivelles": {
+    "lillois": 6,
+    "obaix-buzet": 7
+  },
+  "obaix-buzet": {
+    "nivelles": 7,
+    "luttre": 5
+  },
+  "luttre": {
+    "obaix-buzet": 5,
+    "pont-a-celles": 2,
+    "courcelles-motte": 5
+  },
+  "courcelles-motte": {
+    "luttre": 5,
+    "roux": 3
+  },
+  "roux": {
+    "courcelles-motte": 3,
+    "charleroi-sud": 7,
+    "charleroi-ouest": 7,
+    "couillet": 7,
+    "lodelinsart": 7,
+    "marchienne-au-pont": 7,
+    "marchienne-zone": 7
+  },
+  "hoeilaart": {
+    "hulpe": 4,
+    "groenendaal": 1
+  },
+  "hulpe": {
+    "hoeilaart": 4,
+    "genval": 1
+  },
+  "genval": {
+    "hulpe": 1,
+    "rixensart": 2
+  },
+  "rixensart": {
+    "genval": 2,
+    "profondsart": 2
+  },
+  "profondsart": {
+    "rixensart": 2,
+    "ottignies": 3
+  },
+  "ottignies": {
+    "profondsart": 3,
+    "limal": 2,
+    "ceroux-mousty": 2,
+    "mont-saint-guibert": 6,
+    "louvain-la-neuve": 7
+  },
+  "louvains-la-neuve": {
+    "ottignies": 7
+  },
+  "ceroux-mousty": {
+    "ottignies": 2,
+    "court-saint-etienne": 2
+  },
+  "court-saint-etienne": {
+    "ceroux-mousty": 2,
+    "faux": 3
+  },
+  "faux": {
+    "court-saint-etienne": 3,
+    "roche": 1
+  },
+  "roche": {
+    "faux": 1,
+    "villers-la-ville": 4
+  },
+  "villers-la-ville": {
+    "roche": 4,
+    "tilly": 3
+  },
+  "tilly": {
+    "villers-la-ville": 3,
+    "ligny": 6
+  },
+  "ligny": {
+    "tilly": 6,
+    "fleurus": 3
+  },
+  "fleurus": {
+    "ligny": 3,
+    "charleroi-sud": 12,
+    "charleroi-ouest": 12,
+    "lodelinsart": 12,
+    "couillet": 12,
+    "marchienne-au-pont": 12,
+    "marchienne-zone": 12
+  },
+  "mont-saint-guibert": {
+    "ottignies": 6,
+    "blanmont": 2
+  },
+  "blanmont": {
+    "mont-saint-guibert": 2,
+    "chastre": 2
+  },
+  "chastre": {
+    "blanmont": 2,
+    "ernage": 3
+  },
+  "ernage": {
+    "chastre": 3,
+    "gembloux": 1
+  },
+  "gembloux": {
+    "ernage": 1,
+    "chapelle-dieu": 2,
+    "lonzee": 3
+  },
+  "chapelle-dieu": {
+    "gembloux": 2,
+    "mazy": 5
+  },
+  "mazy": {
+    "chapelle-dieu": 5,
+    "jemeppe-sur-sambre": 7,
+    "moustier": 10
+  },
+  "lonzee": {
+    "gembloux": 3,
+    "beuzet": 3
+  },
+  "beuzet": {
+    "lonzee": 3,
+    "saint-denis-bovesse": 2
+  },
+  "saint-denis-bovesse": {
+    "beuzet": 2,
+    "rhisnes": 3
+  },
+  "rhisnes": {
+    "saint-denis-bovesse": 3,
+    "namur": 6,
+    "ronet": 6,
+    "flawinne": 6,
+    "jambes": 6,
+    "jambes-est": 6
+  },
+  "poperinge": {
+    "ieper": 10
+  },
+  "ieper": {
+    "poperinge": 10,
+    "comines": 13
+  },
+  "comines": {
+    "ieper": 13,
+    "wervik": 3
+  },
+  "wervik": {
+    "comines": 3,
+    "menen": 6
+  },
+  "menen": {
+    "wervik": 6,
+    "wevelgem": 4
+  },
+  "wevelgem": {
+    "menen": 4,
+    "bissegem": 3
+  },
+  "bissegem": {
+    "wevelgem": 3,
+    "kortrijk": 4
+  },
+  "kortrijk": {
+    "bissegem": 4,
+    "mouscron": 14,
+    "ingelmunster": 11,
+    "harelbeke": 6,
+    "vichte": 9
+  },
+  "vichte": {
+    "kortrijk": 9,
+    "anzegem": 8
+  },
+  "anzegem": {
+    "vichte": 8,
+    "oudenaarde": 8
+  },
+  "oudenaarde": {
+    "anzegem": 8,
+    "eine": 3,
+    "sint-denijs-boekel": 7,
+    "ronse": 13
+  },
+  "ronse": {
+    "oudenaarde": 13
+  },
+  "sint-denijs-boekel": {
+    "oudenaarde": 7,
+    "munkzwalm": 3
+  },
+  "munkzwalm": {
+    "sint-denijs-boekel": 3,
+    "zottegem": 7
+  },
+  "zottegem": {
+    "munkzwalm": 7,
+    "balegem-zuid": 3,
+    "hillegem": 4,
+    "lierde": 8
+  },
+  "lierde": {
+    "zottegem": 8,
+    "geraardsbergen": 6
+  },
+  "geraardsbergen": {
+    "lierde": 6,
+    "schendelbeke": 4,
+    "viane-moerbeke": 5,
+    "acren": 5
+  },
+  "acren": {
+    "geraardsbergen": 5,
+    "lessines": 2
+  },
+  "lessines": {
+    "acren": 2,
+    "houraing": 1
+  },
+  "houraing": {
+    "lessines": 1,
+    "papignies": 2
+  },
+  "papignies": {
+    "houraing": 2,
+    "rebaix": 4
+  },
+  "rebaix": {
+    "papignies": 4,
+    "ath": 4
+  },
+  "viane-moerbeke": {
+    "geraardsbergen": 5,
+    "galmaarden": 3
+  },
+  "galmaarden": {
+    "viane-moerbeke": 3,
+    "tollembeek": 2
+  },
+  "tollembeek": {
+    "galmaarden": 2,
+    "herne": 2
+  },
+  "herne": {
+    "tollembeek": 2,
+    "enghien": 4
+  },
+  "hillegem": {
+    "zottegem": 4,
+    "herzele": 2
+  },
+  "herzele": {
+    "hillegem": 2,
+    "terhagen": 1
+  },
+  "terhagen": {
+    "herzele": 1,
+    "burst": 2
+  },
+  "burst": {
+    "terhagen": 2,
+    "ede": 5,
+    "bambrugge": 1
+  },
+  "bambrugge": {
+    "burst": 1,
+    "erpe-mere": 3
+  },
+  "erpe-mere": {
+    "bambrugge": 3
+  },
+  "ede": {
+    "burst": 5,
+    "haaltert": 2
+  },
+  "haaltert": {
+    "ede": 2,
+    "welle": 5,
+    "denderleeuw": 5,
+    "iddergem": 5
+  },
+  "welle": {
+    "denderleeuw": 3,
+    "iddergem": 3,
+    "haaltert": 5,
+    "erembodegem": 6,
+    "aalst": 6,
+    "aalst-kerrebroek": 6,
+    "liedekerke": 1,
+    "okegem": 5
+  },
+  "denderleeuw": {
+    "welle": 3,
+    "iddergem": 3,
+    "haaltert": 5,
+    "erembodegem": 6,
+    "aalst": 6,
+    "aalst-kerrebroek": 6,
+    "liedekerke": 1,
+    "okegem": 5
+  },
+  "iddergem": {
+    "welle": 3,
+    "denderleeuw": 3,
+    "haaltert": 5,
+    "erembodegem": 6,
+    "aalst": 6,
+    "aalst-kerrebroek": 6,
+    "liedekerke": 1,
+    "okegem": 5
+  },
+  "okegem": {
+    "welle": 5,
+    "denderleeuw": 5,
+    "iddergem": 5,
+    "ninove": 3
+  },
+  "ninove": {
+    "okegem": 3,
+    "eichem": 3
+  },
+  "eichem": {
+    "ninove": 3,
+    "appelterre": 2
+  },
+  "appelterre": {
+    "eichem": 2,
+    "zandbergen": 1
+  },
+  "zandbergen": {
+    "appelterre": 1,
+    "idegem": 3
+  },
+  "idegem": {
+    "zandbergen": 3,
+    "schendelbeke": 1
+  },
+  "schendelbeke": {
+    "idegem": 1,
+    "geraardsbergen": 4
+  },
+  "liedekerke": {
+    "welle": 1,
+    "denderleeuw": 1,
+    "iddergem": 1,
+    "essene-lombeek": 1
+  },
+  "essene-lombeek": {
+    "liedekerke": 1,
+    "ternat": 4
+  },
+  "ternat": {
+    "essene-lombeek": 4,
+    "sint-martens-bodegem": 3
+  },
+  "sint-martens-bodegem": {
+    "ternat": 3,
+    "dilbeek": 2
+  },
+  "dilbeek": {
+    "sint-martens-bodegem": 2,
+    "groot-bijgaarden": 3
+  },
+  "zaventem": {
+    "diegem": 2,
+    "airport-zaventem": 4,
+    "nossegem": 2
+  },
+  "nossegem": {
+    "zaventem": 2,
+    "airport-zaventem": 3,
+    "kortenberg": 3
+  },
+  "kortenberg": {
+    "nossegem": 3,
+    "erps-kwerps": 3
+  },
+  "erps-kwerps": {
+    "kortenberg": 3,
+    "veltem": 4
+  },
+  "veltem": {
+    "erps-kwerps": 4,
+    "herent": 2
+  },
+  "herent": {
+    "veltem": 2,
+    "leuven": 5,
+    "heverlee": 5
+  },
+  "leuven": {
+    "heverlee": 3,
+    "herent": 5,
+    "wijgmaal": 5,
+    "wezemaal": 9,
+    "vertrijk": 11,
+    "oud-heverlee": 8
+  },
+  "heverlee": {
+    "leuven": 3,
+    "herent": 5,
+    "wijgmaal": 5,
+    "wezemaal": 9,
+    "vertrijk": 11,
+    "oud-heverlee": 8
+  },
+  "oud-heverlee": {
+    "heverlee": 8,
+    "leuven": 8,
+    "sint-joris-weert": 4
+  },
+  "sint-joris-weert": {
+    "oud-heverlee": 4,
+    "pecrot": 2
+  },
+  "pecrot": {
+    "sint-joris-weert": 2,
+    "florival": 2
+  },
+  "florival": {
+    "pecrot": 2,
+    "archennes": 1
+  },
+  "archennes": {
+    "florival": 1,
+    "gastuche": 3
+  },
+  "gastuche": {
+    "archennes": 3,
+    "basse-wavre": 2
+  },
+  "basse-wavre": {
+    "gastuche": 2,
+    "wavre": 1
+  },
+  "wavre": {
+    "basse-wavre": 1,
+    "bierges-walibi": 3
+  },
+  "bierges-walibi": {
+    "wavre": 3,
+    "limal": 2
+  },
+  "limal": {
+    "bierges-walibi": 2,
+    "ottignies": 2
+  },
+  "vertrijk": {
+    "leuven": 11,
+    "heverlee": 11,
+    "tienen": 8
+  },
+  "tienen": {
+    "vertrijk": 8,
+    "ezemaal": 6
+  },
+  "ezemaal": {
+    "tienen": 6,
+    "neerwinden": 3
+  },
+  "neerwinden": {
+    "ezemaal": 3,
+    "landen": 4
+  },
+  "landen": {
+    "neerwinden": 4,
+    "waremme": 14,
+    "sint-truiden": 11
+  },
+  "waremme": {
+    "landen": 14,
+    "bleret": 3
+  },
+  "bleret": {
+    "waremme": 3,
+    "remicourt": 2
+  },
+  "remicourt": {
+    "bleret": 2,
+    "momalle": 4
+  },
+  "momalle": {
+    "remicourt": 4,
+    "fexhe-le-haut-clocher": 2
+  },
+  "fexhe-le-haut-clocher": {
+    "momalle": 2,
+    "voroux-goreux": 2
+  },
+  "voroux-goreux": {
+    "fexhe-le-haut-clocher": 2,
+    "bierset-awans": 2
+  },
+  "bierset-awans": {
+    "voroux-goreux": 2,
+    "ans": 4
+  },
+  "ans": {
+    "bierset-awans": 4,
+    "angleur": 6,
+    "bressoux": 6,
+    "chenee": 6,
+    "liege-guillemins": 6,
+    "liege-jonfosse": 6,
+    "liege-palais": 6,
+    "sclessin": 6
+  },
+  "panne": {
+    "koksijde": 3
+  },
+  "koksijde": {
+    "panne": 3,
+    "veurne": 1
+  },
+  "veurne": {
+    "koksijde": 1,
+    "diksmuide": 16
+  },
+  "diksmuide": {
+    "veurne": 16,
+    "kortemark": 12
+  },
+  "kortemark": {
+    "diksmuide": 12,
+    "lichtervelde": 6
+  },
+  "lichtervelde": {
+    "kortemark": 6,
+    "torhout": 5,
+    "tielt": 17,
+    "roeselare": 8
+  },
+  "roeselare": {
+    "lichtervelde": 8,
+    "izegem": 7
+  },
+  "izegem": {
+    "roeselare": 7,
+    "ingelmunster": 3
+  },
+  "ingelmunster": {
+    "izegem": 3,
+    "kortrijk": 11
+  },
+  "tielt": {
+    "lichtervelde": 17,
+    "aarsele": 7
+  },
+  "aarsele": {
+    "tielt": 7,
+    "deinze": 8
+  },
+  "deinze": {
+    "aarsele": 8,
+    "waregem": 12,
+    "pinte": 8
+  },
+  "waregem": {
+    "deinze": 12,
+    "harelbeke": 9
+  },
+  "harelbeke": {
+    "waregem": 9,
+    "kortrijk": 6
+  },
+  "pinte": {
+    "deinze": 8,
+    "eke-nazareth": 4,
+    "gent-sint-pieters": 8,
+    "gent-dampoort": 8,
+    "gentbrugge": 8,
+    "drongen": 8,
+    "wondelgem": 8
+  },
+  "gent-sint-pieters": {
+    "gent-dampoort": 3,
+    "gentbrugge": 3,
+    "drongen": 3,
+    "wondelgem": 3,
+    "pinte": 8,
+    "landegem": 11,
+    "evergem": 13,
+    "merelbeke": 6,
+    "beervelde": 18
+  },
+  "gent-dampoort": {
+    "gent-sint-pieters": 3,
+    "gentbrugge": 3,
+    "drongen": 3,
+    "wondelgem": 3,
+    "pinte": 8,
+    "landegem": 11,
+    "evergem": 13,
+    "merelbeke": 6,
+    "beervelde": 18
+  },
+  "gentbrugge": {
+    "gent-sint-pieters": 3,
+    "gent-dampoort": 3,
+    "drongen": 3,
+    "wondelgem": 3,
+    "pinte": 8,
+    "landegem": 11,
+    "evergem": 13,
+    "merelbeke": 6,
+    "beervelde": 18
+  },
+  "drongen": {
+    "gent-sint-pieters": 3,
+    "gent-dampoort": 3,
+    "gentbrugge": 3,
+    "wondelgem": 3,
+    "pinte": 8,
+    "landegem": 11,
+    "evergem": 13,
+    "merelbeke": 6,
+    "beervelde": 18
+  },
+  "wondelgem": {
+    "gent-sint-pieters": 3,
+    "gent-dampoort": 3,
+    "gentbrugge": 3,
+    "drongen": 3,
+    "pinte": 8,
+    "landegem": 11,
+    "evergem": 13,
+    "merelbeke": 6,
+    "beervelde": 18
+  },
+  "eke-nazareth": {
+    "pinte": 4,
+    "gavere-asper": 4
+  },
+  "gavere-asper": {
+    "eke-nazareth": 4,
+    "zingem": 2
+  },
+  "zingem": {
+    "gavere-asper": 2,
+    "eine": 5
+  },
+  "eine": {
+    "zingem": 5,
+    "oudenaarde": 3
+  },
+  "merelbeke": {
+    "gent-sint-pieters": 6,
+    "gent-dampoort": 6,
+    "gentbrugge": 6,
+    "drongen": 6,
+    "wondelgem": 6,
+    "melle": 3
+  },
+  "melle": {
+    "merelbeke": 3,
+    "kwatrecht": 3,
+    "gontrode": 3
+  },
+  "gontrode": {
+    "melle": 3,
+    "landskouter": 1
+  },
+  "landskouter": {
+    "gontrode": 1,
+    "moortsele": 2
+  },
+  "moortsele": {
+    "landskouter": 2,
+    "scheldewindeke": 2
+  },
+  "scheldewindeke": {
+    "moortsele": 2,
+    "balegem-dorp": 2
+  },
+  "balegem-dorp": {
+    "scheldewindeke": 2,
+    "balegem-zuid": 2
+  },
+  "balegem-zuid": {
+    "balegem-dorp": 2,
+    "zottegem": 3
   }
 }
