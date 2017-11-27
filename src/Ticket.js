@@ -80,7 +80,7 @@ class Ticket {
      */
     getPriceDistance() {
         let distance = this.distance;
-        while (PRICES[this.clazs][distance] === undefined) {
+        while (PRICES[this.type][this.clazs][distance] === undefined) {
             distance -= 1;
         }
         return distance;
