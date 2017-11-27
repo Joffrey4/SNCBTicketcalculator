@@ -1,5 +1,6 @@
-let CommonTicket = require('./CommonTicket');
-let FixedTicket = require('./FixedTicket');
+"use strict";
+
+let Ticket = require('./Ticket');
 let DistanceCalculator = require('./modules/distanceCalculator/DistanceCalculator');
 
 //let ticket1 = new CommonTicket("standard", false, 2, 102, "charleroi", "namur");
